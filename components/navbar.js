@@ -1,7 +1,7 @@
 import Logo from './logo';
 import NextLink from 'next/link';
 import { Container, Box, Link, Stack, Heading, Flex, Menu, MenuItem, MenuList, MenuButton, IconButton, useColorModeValue } from '@chakra-ui/react';
-import { HamburgerIcon} from '@chakra-ui/icons'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button.js';
 
 const LinkItem = ({ href, path, children }) => {
@@ -72,7 +72,6 @@ const Navbar = props => {
                     Posts
                   </MenuItem>
                 </NextLink>
-                <MenuItem as={Link}  href="https://twitter.com/sikranchez/">Contact</MenuItem>
               </MenuList>
             </Menu>
           </Box>
