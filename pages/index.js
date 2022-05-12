@@ -20,9 +20,9 @@ const Page = () => {
         <Box flexGrow={1}>
           <Heading as="h2" 
           variant="page-title">
-            Slrhoseini
+            Salar Hosseini
           </Heading>
-          <p>Artist, Developer, Producer and also a Student</p>
+          <p>Developer, Beat Producer, Gamer, Student and also a Learner</p>
         </Box>
         <Box flexShrink={0} 
         mt={{base: 4,md: 0}} 
@@ -33,22 +33,75 @@ const Page = () => {
           maxWidth="150px" 
           display="inline-block" 
           borderRadius="full" 
-          src="/images/slrhoseini.jpg" 
+          src="/images/slrhoseini1.jpg" 
           alt="Pofile Imae" />
         </Box>
       </Box>
+      
       <Section delay={0.1}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>
+            Email
+          </BioYear>
+          <Link href="mailto:salar_hosseini11@yahoo.com">
+          salar_hosseini11@yahoo.com
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>
+            2019
+          </BioYear>
+          Finished highschool and untill present studying Computer Engineering at Shahrood University of Technology
+        </BioSection>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Skills
+        </Heading>
+        <BioSection>
+        <BioYear></BioYear>
+          Html5
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+          CSS
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+          Javascript
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+        ReactJs
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+        NextJs
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+        Chakra UI
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+        Framer Motion
+        </BioSection>
+        <BioSection>
+        <BioYear></BioYear>
+        ThreeJs
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <Paragraph> His property of repetition defines a fundamental spatial frequency
-that can be used to give a first approximation to
-the periodic pattern where symbols with subscript 1 are constants that determine the amplitude and phase of this first approximation
-A much better approximation of the periodic pattern can
-be built up by adding an appropriate combination of harmonics to
-this fundamental (sine-wave) pattern. For example, adding
-Here, symbols with subscripts are constants that determine the amplitude and phase of each harmonic contribution..
-<NextLink href="/works/inkdrop">
+        <Paragraph> There are Projects i've done so far like a online restaurant menu that i used react and js, instrumental beats that i produced and some mixtapes that...
+<NextLink href="/works/restmenu">
   <Link>
     More
   </Link>
@@ -60,24 +113,8 @@ Here, symbols with subscripts are constants that determine the amplitude and pha
   </NextLink>
 </Box>
       </Section>
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>
-            1999
-          </BioYear>
-          Born in Tehran, Iran.
-        </BioSection>
-        <BioSection>
-          <BioYear>
-            2019
-          </BioYear>
-          Finished highschool and untill present studying Computer Engineering at Shahrood University of Technology
-        </BioSection>
-      </Section>
-      <Section delay={0.3}>
+
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
         Contact
         </Heading>
