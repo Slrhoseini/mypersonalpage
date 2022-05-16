@@ -1,5 +1,5 @@
 import {
-  Button, Container, Box, Heading, Link, AspectRatio
+  Button, Container, Box, Heading, Link
 } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section';
@@ -104,13 +104,9 @@ const Bio = () => (
   <BioYear></BioYear>
   Framer Motion
   </BioSection>
-  <BioSection>
-  <BioYear></BioYear>
-  ThreeJs
-  </BioSection>
 
   <Box align="center" my={4}>
-  <NextLink href="/works">
+  <NextLink href="/works" passHref scroll={false}>
     <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">My Works</Button>
   </NextLink>
 </Box>
